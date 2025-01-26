@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: user-service-container
-          image: akhilgolla/springboot-docker:latest
+          image: ''
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8085
